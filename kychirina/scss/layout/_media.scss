@@ -1,0 +1,617 @@
+/*
+================================================================================
+|                                     media                                   |
+================================================================================
+*/
+
+@media screen and (max-width: 1200px) {
+	
+}
+
+@media screen and (min-width: 992px){
+	
+}
+
+@media screen and (max-width: 991px) {
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+	
+}
+
+/*BEGIN HEADER*/
+
+/* -- BEGIN FOR SAFARI   -- */
+@media screen and(-webkit-min-device-pixel-ratio:0) {
+	::i-block-chrome,.nav__link a,.product__payment,.personal__login a,.nav__link_sub{
+		font-weight: 500;    
+	}
+	::i-block-chrome,.top__search{
+		max-width: 496px;
+		width: 40%;
+	}
+
+	::i-block-chrome,[class*="-input"]{
+			display: block;
+			width: 90%;
+			height: 30px;
+			margin: 10px auto;					
+		}			
+	
+	::i-block-chrome,[class*="__form"]{ 
+		width: 300px;
+		height: auto;
+		padding: 50px 10px 20px 10px;
+		background-color: #fff;
+		border-radius: 5px; 
+	}
+
+	::i-block-chrome,.social{
+		&__box{
+			width: 80%;			
+			padding: 10px 0px 10px 40px;
+			margin: 0 auto;
+		}
+		&__link{
+			display: block;
+			margin: 0 20px;
+			width: auto;			
+			height: 20px;
+		}
+	}
+}
+/* -- FOR SAFARI EOF -- */
+
+@media screen and (max-width: 1400px) {
+	html{
+		font-size: 9px;
+	}	
+}
+
+@media screen and (max-width: 1130px) {
+	html{
+		font-size: 8px;
+	}
+	
+	.header{
+		&__bottom{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			flex-wrap: nowrap;
+			padding: 0px;
+		}
+	}
+	
+	.top{
+		&__logo{
+			display:inline-block;
+			padding-right: 0rem;
+			margin: 0px 0px -19px 6px;
+		}
+		&__search{
+			max-width: 220px;			
+			height: 30px; 
+			margin: -2px 0px 0px 13px;   
+		}
+		&__info{
+			margin: -1px -5px 0px 0px;
+		}		
+	}
+
+	.search{
+		&__input{
+			&::placeholder {
+				font-size: 10px;
+				letter-spacing: -0.6px;
+			}	        
+		}		
+		&__button{
+		    margin: 0px 0px 0px 2px;
+		}		
+	}
+	
+	.info{
+		&__contact{
+
+			.contact{
+				&__call{
+					font-size: 15px;
+					padding-right: 1.0rem;
+					margin: 5px 9px 0px 0px;
+					letter-spacing: 0.2px;
+				}
+				&__time{
+					font-size: 10px;
+					margin: 1px 10px 0px 0px;		
+				}		
+			}
+		}
+	}
+	
+	.personal{
+		&__box{
+			padding: 0px 30px 0px 0px;
+			flex-wrap: wrap;	
+		}
+		&__login{
+			padding: 0px 0px 0px 0px;
+			margin: 0px 0px 0px 10px;
+		}
+		.product{
+			&__link{
+				padding: 0px 3px 0px 0px;
+				img{
+					width: 15px;
+					height: 15px;			
+				}
+			}
+			&__sum{
+				width: 19px;
+				height: 16px;
+				padding: 0.5px 1.5px 0px 0px;
+				margin: 0px 5px 0px 6px;
+				font-size: 11px;		
+			}
+			&__payment{
+				font-size: 10px;
+				letter-spacing: 0.3px;
+				padding: 0px 0px 0px 0px;
+				span{
+					font-size: 12px;
+					word-spacing: 0.5px;
+					padding: 0px 6px 0px 5px;	
+				}		
+			}
+		}	
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	html{
+		font-size: 7px;
+	}	
+}
+
+
+@media screen and (max-width: 768px) {
+	.header{
+		background:#ffffff;
+		max-height: 430px;
+		&__top{
+			max-width: 750px;
+			height: 95px;
+			padding: 25px 15px 10px 15px;
+			align-items: flex-start;
+		}
+		&__bottom{
+			max-width: 750px;
+			height: 48px;
+		}
+		&__slaider{
+			max-width: 750px;
+			max-height: 165px;
+			margin-top: 20px;
+			overflow: hidden;				
+		}
+	}
+
+	.logo{
+		&__img_big{
+			width: 179px;
+			height: 23px; 
+		}
+		&__text{
+			font-size: 13px;
+			margin: -3px 0px 0px -2px;
+		}
+	}
+
+	.info{
+		&__working-hide{
+			display: block;
+		}
+
+	}
+
+	.personal{
+		display: none;
+	}
+
+	.nav{
+		width: 100%;
+		&__link {
+			padding: 0px 0px 0px 0px;
+			margin: 0px 25px 0px 0px;
+			a {
+				font-size: 11px;
+				letter-spacing: 0.5px;
+				word-spacing: 0.5px;    
+			}
+			&_first{
+				padding: 0px 0px 0px 18px;
+				margin: 0px 11px 0px 0.5px;
+				a {
+					span{
+						padding: 0px 0px 0px 9px;
+						letter-spacing: 0.6px;
+						word-spacing: 3px;	
+					}				
+				}
+			}
+			&_secondary{
+				top: 40px;
+				left: 17px;
+				a {
+					font-size: 15px;
+					letter-spacing: 0.2px; 
+				}				
+			}		
+			&_secondary,
+			&_sub{
+				padding: 11px 0px 0px 0px;
+			}
+			&_sub{
+				a{
+					margin: 0px 0px 0px 3px;
+				}
+				&>li:first-child{
+				 	letter-spacing: -0.7px;
+				}
+			}		
+		}
+	}	
+
+
+	.slaider__item_text{
+		width: 287px;
+		height: 65px;
+		padding: 10px 20px;
+		font-size: 3.5rem;
+		line-height: 3.5rem;
+		left: 40px;
+		top: 50px;
+	}
+}
+
+@media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio:0){
+	.search{
+		border: 1px solid #b9b8bd;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.info__contact_button-hide,.working__product_button-hide,.working__login_button-hide,.bottom__nav_button-hide{
+		display: block;
+	}
+	.personal__product,.info__contact,.info__working-hide{
+		display: none;
+	}	
+
+	.header{
+		&__top{
+			max-width: none;
+			width: 100%;
+			height: 40px;
+			padding: 0;						
+			align-items: center;
+			position: relative;
+		}
+		&__bottom{
+			max-width: none;
+			height: 40px;
+			padding: 0px;
+			position: relative;
+			display: flex;
+		}
+		&__slaider{
+			max-width: none;
+			height: 165px;
+			margin-top: 20px;							
+		}
+	}	
+
+	.top{
+		&__logo {
+		    margin: 2px 0px 0px 6px;
+		}
+		&__info{
+			width: 30%;
+			height: 100%;
+			margin: 0 2.0rem;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;				
+		}				
+	}
+
+	.info{		
+		&__contact,&__working-hide{
+			width: 100%;
+			height: 44px;
+			background-color: #ffffff;
+			position: absolute;
+			top: 40px;
+			right: 0px;
+			z-index: 999;
+			padding: 0px 0px 0px 10px;
+			margin: 0px;
+		}
+		&__contact{	
+			.contact{
+				&__call,&__time{
+					display: inline-block;
+					vertical-align: middle;
+				}
+				&__time{
+					&_work,&_delivery{
+						display: inline-block;
+						vertical-align: middle;
+					}
+				}		
+			}
+		}
+		&__working-hide{
+			.working__box{
+				height: 100%;			
+				margin: 0px;
+				justify-content: flex-start;
+			}
+			.working__product{
+				.product__sum{
+					padding: 0.5px 0px 0px 3px;	
+				}
+			}
+			.working__login{
+				display: none;		
+			}
+		}
+	}
+
+	.contact{
+		max-width: none;
+	}
+
+	.nav{
+		&__link {
+			&_first{
+				.nav__link_trigram{
+					display: none;
+				}
+			}	
+		}
+	}
+	[class*="nav__link-hide"]{
+		display: none;
+		width: 120px;
+		height: 20px;
+																																																																																						
+	}	
+
+}
+
+@media screen and (max-width: 670px) and (-webkit-min-device-pixel-ratio:0){
+	.top__info{
+		width: 25%;
+		margin-right: 10px
+	}
+}
+
+@media screen and (max-width: 565px){
+	.header__logo-hide{
+		display: block;
+	}	
+	.top__logo{
+		display: none;
+	}
+
+	.nav{
+		&__link {
+			&_secondary{
+				top: 40px;
+				left: 5px;
+				li a {
+					display: block;
+					height: 20px;
+					padding: 1px 5px 0px 15px;					
+					font-size: 12px;
+					letter-spacing: 0.2px;
+					line-height: 20px; 
+				}
+				&>li:last-child{
+					a {
+						line-height: 10px; 
+					}
+					div {
+						padding: 0px 0px 5px 0px; 
+					}
+				} 				
+				li a::before {
+		          content: "";
+		          width: 5px;
+		          height: 5px;
+		          border: 0.7px solid #cb944c;
+		          top: 10px;
+		          left: 5px; }
+				&> li:first-child a img, 
+				&> li:nth-of-type(4) a img {
+				    margin: 7px 0 0 0;
+				}
+			}		
+			&_secondary,
+			&_sub{
+				width: 150px;
+				height: auto;
+				padding: 10px 0;
+			}
+			&_sub{
+				top: -10px;
+				left: 152px;
+				font-size: 12px;				
+				li a{
+					font-size: 12px;
+					margin: 0px 0px 0px 3px;
+				}
+				&>li:first-child{
+				 	letter-spacing: -0.7px;
+				}
+			}					
+		}
+	}
+}
+
+@media screen and (max-width: 380px){
+	.top__nav_button-hide,.top__logo-hide,.info__contact_button-hide,.top__search_button-hide,.working__product_button-hide{
+		display: block;
+	}
+
+	.top__search,.personal__product,.info__contact,.header__bottom,.bottom__nav_button-hide{
+		display: none;
+	}
+
+	.header{
+		&__top{
+			background-color: #f0f1f6;				
+		}
+		&__bottom{
+			height: auto;
+			background-color: #f0f1f6;
+			padding: 5px;
+			position: absolute;
+			top: 40px;
+			left: 0;
+			z-index: 999;
+		}
+		&__logo-hide{
+			border: none;			
+			padding: 12px 0px 0px 20px;
+			.logo__img_big,.logo__text{
+				margin: 0;
+			}
+		}		
+		&__slaider{
+			max-width: 750px;
+			height: 165px;
+			margin-top: 20px;
+			overflow: hidden;				
+		}
+	}
+
+	.top{
+		&__search{
+			width: 82%;
+			position: absolute;
+			left: 55px;
+			top: 5px;
+		}
+		&__info{
+			width: 37%;
+			margin: 0 20px 0 0;
+		}
+	}	
+
+	.info{		
+		&__contact,&__working-hide{
+			height: 65px;			
+			background-color: #f0f1f6;
+			top: 40px;
+		}
+	}
+
+	.nav{
+		&__box{
+			flex-wrap: wrap;
+			align-items: center;
+		}		
+		&__link {
+			width: 130px;
+			height: 15px;
+			margin: 5px;
+			background-color: transparent;			
+			&_first{
+				padding: 0px 0px 0px 0px;
+				margin: 0px 0px 0px 0px;
+				a {
+					span{
+						padding: 0px 0px 0px 5px;
+					}				
+				}				
+			}		
+		}
+			&-hide{
+				display: none;				
+			}
+	}
+
+	.slaider{
+		height: 125px;
+		margin-bottom: 10px;
+		&__item_text{
+			width: 190px;
+			height: 44px;
+			padding: 6px 8px 0px 8px;
+			font-size: 15px;
+			letter-spacing: 0.7px;
+			line-height: 15px;
+			left: 27px;
+			top: 42px;
+		}		
+	}
+
+			
+}
+
+@media screen and (max-width: 380px) and (-webkit-min-device-pixel-ratio:0) {
+	.nav{
+		&__box{
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+		}
+		&__link{
+			width: 190px;
+			height: 20px;
+		}		
+	}
+
+}
+
+@media screen and (max-width: 320px){
+	.header{
+		max-height: 240px;
+		&__top,
+		&__menu,
+		&__slaider{
+			max-width: 320px;
+		}
+		&__slaider{
+			margin-top: 29px;
+		}				
+	}
+
+	.info{
+		&__contact,&__working-hide{
+			background-color: #f0f1f6;
+			position: absolute;
+		}
+		&__contact{	
+			.contact{
+				&__time{
+					&_work,&_delivery{
+						display: block;
+					}
+				}						
+			}
+		}
+	}
+
+
+}
+
+/*HEADER EOF*/
